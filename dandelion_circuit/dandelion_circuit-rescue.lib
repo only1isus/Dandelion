@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# MAX14626-Power_Protection-smallIrrigationCircuit-rescue
+#
+DEF MAX14626-Power_Protection-smallIrrigationCircuit-rescue U 0 40 Y Y 1 F N
+F0 "U" 0 400 50 H V C CNN
+F1 "MAX14626-Power_Protection-smallIrrigationCircuit-rescue" 0 500 50 H V C CNN
+F2 "Package_DFN_QFN:DFN-6-1EP_3x3mm_P1mm_EP1.5x2.4mm" 0 400 50 H I C CNN
+F3 "https://datasheet.octopart.com/MAX14626ETT%2BT-Maxim-Integrated-datasheet-13703312.pdf" 0 400 50 H I C CNN
+DRAW
+S -300 200 300 -200 0 1 6 N
+S 1000 1200 1000 1200 0 1 6 N
+X IN 1 -400 100 100 R 50 50 1 1 P
+X IC 2 -200 -300 100 U 50 50 1 1 P
+X IC 3 -100 -300 100 U 50 50 1 1 P
+X IC 4 100 -300 100 U 50 50 1 1 P
+X GND 5 200 -300 100 U 50 50 1 1 P
+X OUT 6 400 100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
