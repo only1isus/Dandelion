@@ -1,4 +1,4 @@
-16946466581170515
+16952839697391337
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin{space}Battery{space}Holder,{space}BX0036,{space}Battery{space}Type{space}C{space}(https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -22119,6 +22119,13 @@ phoenix_contact{space}connector{space}MC_01x12_GF_5.08mm_MH
 0
 12
 12
+Connector_Phoenix_MSTB
+Connector_Phoenix_MKKDSN
+
+
+0
+10
+10
 Connector_Phoenix_MSTB
 PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal
 Generic{space}Phoenix{space}Contact{space}connector{space}footprint{space}for:{space}MSTBA_2,5/2-G-5,08;{space}number{space}of{space}pins:{space}02;{space}pin{space}pitch:{space}5.08mm;{space}Angled{space}||{space}order{space}number:{space}1757242{space}12A{space}||{space}order{space}number:{space}1923869{space}16A{space}(HC)
@@ -46963,6 +46970,13 @@ Coilcraft_Xal7070
 2
 2
 Inductor_SMD
+Inductor_Sunlord_MWSA0603
+
+
+0
+2
+2
+Inductor_SMD
 L_6.3x6.3_H3
 Choke,{space}SMD,{space}6.3x6.3mm{space}3mm{space}height
 Choke{space}SMD
@@ -48408,6 +48422,13 @@ Inductor_SMD
 L_Wuerth_WE-TPC-3816
 L_Wuerth_WE-TPC-3816{space}StepUp{space}generated{space}footprint,{space}http://katalog.we-online.de/pbs/datasheet/7440310047.pdf
 wurth{space}wuerth{space}smd{space}inductor
+0
+2
+2
+Inductor_SMD
+Sunlord_MWSA0503S
+
+
 0
 2
 2
@@ -70139,6 +70160,13 @@ Logo{space}WEEE
 0
 0
 0
+TPD4E004DRYR
+SON-6
+4-Channel{space}ESD{space}Protection{space}Array{space}for{space}High-Speed{space}Data{space}Interfaces{space}6-SON{space}-40{space}to{space}85
+
+0
+6
+6
 TPS2121RUXR
 IC_TPS2121RUXR
 
