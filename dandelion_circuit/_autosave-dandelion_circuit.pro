@@ -1,6 +1,6 @@
-update=Mon 29 Jun 2020 06:07:33 AM EST
+update=Fri 17 Jul 2020 07:16:07 AM EST
 version=1
-last_client=pcbnew
+last_client=kicad
 [general]
 version=1
 RootSch=
@@ -12,6 +12,10 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[LibeditFrame]
+version=1
+[ModEditFrame]
+version=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -21,7 +25,7 @@ LastIDFExportPath=
 LastVRMLExportPath=
 LastSpecctraDSNExportPath=
 LastGenCADExportPath=
-CopperLayerCount=2
+CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
@@ -29,7 +33,7 @@ MinClearance=0
 MinTrackWidth=0.2
 MinViaAnnulus=0.05
 MinViaDiameter=0.4
-MinThroughDrill=0.3
+MinThroughDrill=0.2
 MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
@@ -135,19 +139,19 @@ DimensionPrecision=1
 SolderMaskClearance=0.05
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
 Enabled=1
 [pcbnew/Layer.In1.Cu]
-Name=In1.Cu
-Type=0
-Enabled=0
+Name=3.3V
+Type=1
+Enabled=1
 [pcbnew/Layer.In2.Cu]
-Name=In2.Cu
-Type=0
-Enabled=0
+Name=GND
+Type=1
+Enabled=1
 [pcbnew/Layer.In3.Cu]
 Name=In3.Cu
 Type=0
@@ -262,7 +266,7 @@ Type=0
 Enabled=0
 [pcbnew/Layer.B.Cu]
 Name=B.Cu
-Type=0
+Type=2
 Enabled=1
 [pcbnew/Layer.B.Adhes]
 Enabled=1
@@ -306,6 +310,39 @@ Enabled=0
 [pcbnew/Netclasses/Default]
 Name=Default
 Clearance=0.2
+TrackWidth=0.25
+ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/1]
+Name=Solar Power
+Clearance=0.2
+TrackWidth=1.5
+ViaDiameter=1
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
+Name=combined power
+Clearance=0.2
+TrackWidth=1
+ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/3]
+Name=power mux fix
+Clearance=0
 TrackWidth=0.25
 ViaDiameter=0.8
 ViaDrill=0.4

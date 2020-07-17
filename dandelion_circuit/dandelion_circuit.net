@@ -1,7 +1,7 @@
 (export (version "D")
   (design
     (source "/home/isus/circuits/projectDandelion/dandelion_circuit/dandelion_circuit.kicad_sch")
-    (date "Mon 29 Jun 2020 08:19:04 PM EST")
+    (date "Wed 15 Jul 2020 06:43:13 AM EST")
     (tool "Eeschema (5.99.0-1836-gb06a45455)")
     (sheet (number "1") (name "/") (tstamps "/")
       (title_block
@@ -838,8 +838,7 @@
         (fp "Connector*:*_1x??_*"))
       (fields
         (field (name "Reference") "J")
-        (field (name "Value") "Conn_01x04_Male")
-        (field (name "Datasheet") "~"))
+        (field (name "Value") "Conn_01x04_Male"))
       (pins
         (pin (num "1") (name "Pin_1") (type "passive"))
         (pin (num "2") (name "Pin_2") (type "passive"))

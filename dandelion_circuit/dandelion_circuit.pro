@@ -1,6 +1,6 @@
-update=Thu 02 Jul 2020 02:36:44 PM EST
+update=Thu 16 Jul 2020 07:19:20 AM EST
 version=1
-last_client=pcbnew
+last_client=kicad
 [general]
 version=1
 RootSch=
@@ -38,8 +38,6 @@ ERC_CheckBusToBusConflicts=1
 ERC_CheckBusToNetConflicts=1
 [SchematicFrame]
 version=1
-[sheetnames]
-1=8b89a125-f7dd-40b4-803b-7a06fa0a8b96:
 [ModEditFrame]
 version=1
 [PcbFrame]
@@ -61,7 +59,7 @@ MinClearance=0
 MinTrackWidth=0.2
 MinViaAnnulus=0.05
 MinViaDiameter=0.4
-MinThroughDrill=0.3
+MinThroughDrill=0.2
 MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
@@ -167,7 +165,7 @@ DimensionPrecision=1
 SolderMaskClearance=0.05
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
@@ -346,3 +344,27 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
+[pcbnew/Netclasses/1]
+Name=Solar Power
+Clearance=0.2
+TrackWidth=1.5
+ViaDiameter=1
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
+Name=combined power
+Clearance=0.2
+TrackWidth=1
+ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[sheetnames]
+1=9365d5c6-df07-4d3e-9793-527beb9f45b9:

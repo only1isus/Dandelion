@@ -113,7 +113,7 @@
       (property "Footprint" "" (id 2) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (property "Datasheet" "" (id 3) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_keywords" "connector" (id 4) (at 0 0 0)
@@ -3816,9 +3816,9 @@
   (junction (at 745.49 416.56))
   (junction (at 754.38 416.56))
 
+  (no_connect (at 713.74 436.88))
   (no_connect (at 713.74 434.34))
   (no_connect (at 198.755 466.09))
-  (no_connect (at 713.74 436.88))
 
   (wire (pts (xy 63.5 429.895) (xy 68.58 429.895))
     (stroke (width 0) (type solid) (color 0 0 0 0))
@@ -5888,7 +5888,7 @@
 
   (symbol (lib_id "power:+3.3V") (at 266.7 345.44 0) (unit 1)
     (uuid "5388b14b-70c2-4f69-a41e-694952f3a900")
-    (property "Reference" "#PWR?" (id 0) (at 266.7 349.25 0)
+    (property "Reference" "#PWR0115" (id 0) (at 266.7 349.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (id 1) (at 267.081 341.0458 0))
@@ -6232,7 +6232,7 @@
 
   (symbol (lib_id "power:GND") (at 264.16 337.82 0) (unit 1)
     (uuid "8bff646e-afc9-4613-80c8-ac7d65be28a6")
-    (property "Reference" "#PWR?" (id 0) (at 264.16 344.17 0)
+    (property "Reference" "#PWR0116" (id 0) (at 264.16 344.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 264.287 342.2142 0))
@@ -8178,7 +8178,7 @@
 
   (symbol (lib_id "Connector:Conn_01x04_Male") (at 294.64 340.36 0) (mirror y) (unit 1)
     (uuid "dbd6ec42-110c-4c79-8f47-cf56158cea9a")
-    (property "Reference" "J?" (id 0) (at 290.83 332.74 0))
+    (property "Reference" "J5" (id 0) (at 290.83 332.74 0))
     (property "Value" "Conn_01x04_Male" (id 1) (at 302.26 335.28 0))
     (property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical" (id 2) (at 294.64 340.36 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -8701,10 +8701,10 @@
       (reference "#PWR0114") (unit 1)
     )
     (path "/5388b14b-70c2-4f69-a41e-694952f3a900"
-      (reference "#PWR?") (unit 1)
+      (reference "#PWR0115") (unit 1)
     )
     (path "/8bff646e-afc9-4613-80c8-ac7d65be28a6"
-      (reference "#PWR?") (unit 1)
+      (reference "#PWR0116") (unit 1)
     )
     (path "/00000000-0000-0000-0000-00005ebed7da"
       (reference "C1") (unit 1)
@@ -8841,11 +8841,11 @@
     (path "/00000000-0000-0000-0000-00005ee1400f"
       (reference "J4") (unit 1)
     )
+    (path "/dbd6ec42-110c-4c79-8f47-cf56158cea9a"
+      (reference "J5") (unit 1)
+    )
     (path "/cd1fe5dc-1d3c-4ce0-830f-5e4e0fbe7091"
       (reference "J6") (unit 1)
-    )
-    (path "/dbd6ec42-110c-4c79-8f47-cf56158cea9a"
-      (reference "J?") (unit 1)
     )
     (path "/00000000-0000-0000-0000-00005ebf2a4f"
       (reference "L1") (unit 1)

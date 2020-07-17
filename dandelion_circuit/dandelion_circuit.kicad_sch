@@ -113,7 +113,7 @@
       (property "Footprint" "" (id 2) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (property "Datasheet" "" (id 3) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_keywords" "connector" (id 4) (at 0 0 0)
@@ -3817,8 +3817,8 @@
   (junction (at 754.38 416.56))
 
   (no_connect (at 713.74 434.34))
-  (no_connect (at 198.755 466.09))
   (no_connect (at 713.74 436.88))
+  (no_connect (at 198.755 466.09))
 
   (wire (pts (xy 63.5 429.895) (xy 68.58 429.895))
     (stroke (width 0) (type solid) (color 0 0 0 0))
